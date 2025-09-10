@@ -29,14 +29,6 @@
         <developerConnection>scm:ssh:https://github.com/Auties00/Cobalt.git</developerConnection>
     </scm>
 
-    <distributionManagement>
-        <repository>
-            <id>beyond-beyondup</id>
-            <name>beyond-beyondup</name>
-            <url>https://beyond-087031915917.d.codeartifact.eu-west-1.amazonaws.com/maven/beyondup/</url>
-        </repository>
-    </distributionManagement>
-
     <repositories>
         <repository>
             <id>AsposeJavaAPI</id>
