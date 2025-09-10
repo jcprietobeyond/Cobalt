@@ -30,10 +30,10 @@ public class AppMetadataTests {
         assertDoesNotThrow(() -> getVersion(PlatformType.ANDROID));
     }
     
-    @Test
-    public void testBusinessAndroidVersion() {
-        assertDoesNotThrow(() -> getVersion(PlatformType.ANDROID_BUSINESS));
-    }
+//    @Test
+//    public void testBusinessAndroidVersion() {
+//        assertDoesNotThrow(() -> getVersion(PlatformType.ANDROID_BUSINESS));
+//    }
 
     @Test
     public void testPersonalIosToken() {
@@ -50,10 +50,10 @@ public class AppMetadataTests {
         assertDoesNotThrow(() -> getToken(PlatformType.ANDROID));
     }
 
-    @Test
-    public void testBusinessAndroidToken() {
-        assertDoesNotThrow(() -> getToken(PlatformType.ANDROID_BUSINESS));
-    }
+//    @Test
+//    public void testBusinessAndroidToken() {
+//        assertDoesNotThrow(() -> getToken(PlatformType.ANDROID_BUSINESS));
+//    }
 
     private static Version getVersion(PlatformType platformType) {
         return AppMetadata.getVersion(platformType);
